@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Makes the website responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Harbor & Hearth</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="resources/styles.css">
+</head>
+
+<!-- Body Structure-->
+<body>
+  <div class="container"> <!-- Main Container -->
+    <header>
+      <nav class="desktop"><!-- Nav Bar-->
+        <div class="content">
+          <div class="logo-container"><a href="#">Harbor & Hearth</a></div> <!-- Logo Image-->
+          <ul class="nav-items">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="tablet"><!-- Nav Bar-->
+        <div class="content">
+          <div class="logo-container">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M18.147 6.733a10.578 10.578 0 0 0-5.244.528l-.346.132a13.606 13.606 0 0 1-7.16.84c-1.038-.16-2.12-.418-3.068-.891a1.5 1.5 0 0 1 1.202-2.745l.132.058c.682.32 1.45.499 2.19.613c1.344.206 3.183.22 5.244-.529l.346-.132a13.606 13.606 0 0 1 7.16-.84c1.038.16 2.119.419 3.066.89a1.514 1.514 0 0 1 .672 2.014c-.369.738-1.122.907-2.005.674l-2.19-.612Zm0 6a10.578 10.578 0 0 0-5.244.528l-.346.132a13.606 13.606 0 0 1-7.16.84c-1.038-.16-2.12-.418-3.068-.891a1.5 1.5 0 0 1 1.202-2.745l.132.058c.682.32 1.45.499 2.19.613c1.344.206 3.183.22 5.244-.529l.346-.132a13.606 13.606 0 0 1 7.16-.84c1.038.16 2.119.419 3.066.89a1.514 1.514 0 0 1 .672 2.014c-.369.739-1.122.907-2.005.674l-2.19-.612Zm-5.954 6.8l.364-.14a10.607 10.607 0 0 1 5.59-.66l2.19.612c.882.233 1.635.065 2.005-.674a1.514 1.514 0 0 0-.673-2.013c-.947-.472-2.028-.73-3.066-.89a13.583 13.583 0 0 0-6.797.7l-.363.14c-2.202.88-4.172.878-5.59.66c-.634-.098-1.29-.243-1.893-.484l-.297-.13a1.5 1.5 0 0 0-1.334 2.688c.947.473 2.03.731 3.068.89c1.752.27 4.143.28 6.796-.7Z" />
+              </svg></a>
+          </div> <!-- Logo Image-->
+          <ul class="nav-items">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="mobile"><!-- Nav Bar-->
+        <div class="content">
+          <div class="logo-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M18.147 6.733a10.578 10.578 0 0 0-5.244.528l-.346.132a13.606 13.606 0 0 1-7.16.84c-1.038-.16-2.12-.418-3.068-.891a1.5 1.5 0 0 1 1.202-2.745l.132.058c.682.32 1.45.499 2.19.613c1.344.206 3.183.22 5.244-.529l.346-.132a13.606 13.606 0 0 1 7.16-.84c1.038.16 2.119.419 3.066.89a1.514 1.514 0 0 1 .672 2.014c-.369.738-1.122.907-2.005.674l-2.19-.612Zm0 6a10.578 10.578 0 0 0-5.244.528l-.346.132a13.606 13.606 0 0 1-7.16.84c-1.038-.16-2.12-.418-3.068-.891a1.5 1.5 0 0 1 1.202-2.745l.132.058c.682.32 1.45.499 2.19.613c1.344.206 3.183.22 5.244-.529l.346-.132a13.606 13.606 0 0 1 7.16-.84c1.038.16 2.119.419 3.066.89a1.514 1.514 0 0 1 .672 2.014c-.369.739-1.122.907-2.005.674l-2.19-.612Zm-5.954 6.8l.364-.14a10.607 10.607 0 0 1 5.59-.66l2.19.612c.882.233 1.635.065 2.005-.674a1.514 1.514 0 0 0-.673-2.013c-.947-.472-2.028-.73-3.066-.89a13.583 13.583 0 0 0-6.797.7l-.363.14c-2.202.88-4.172.878-5.59.66c-.634-.098-1.29-.243-1.893-.484l-.297-.13a1.5 1.5 0 0 0-1.334 2.688c.947.473 2.03.731 3.068.89c1.752.27 4.143.28 6.796-.7Z" />
+          </svg></div> <!-- Logo Image-->
+          <ul class="nav-items">
+            <li><a href="#about">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432">
+                <path fill="currentColor"
+                  d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3zM235 323V195h-43v128h43zm0-171v-43h-43v43h43z" />
+              </svg>
+          </a></li>
+            <li><a href="#portfolio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path fill="currentColor"
+                d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
+            </svg></a></li>
+            <li><a href="#team"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M12 10a4 4 0 1 0 0-8a4 4 0 0 0 0 8Zm-6.5 3a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5ZM21 10.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0Zm-9 .5a5 5 0 0 1 5 5v6H7v-6a5 5 0 0 1 5-5Zm-7 5c0-.693.1-1.362.288-1.994l-.17.014A3.5 3.5 0 0 0 2 17.5V22h3v-6Zm17 6v-4.5a3.5 3.5 0 0 0-3.288-3.494c.187.632.288 1.301.288 1.994v6h3Z" />
+            </svg></a></li>
+            <li><a href="#contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path fill="currentColor"
+                d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z" />
+              <path fill="currentColor"
+                d="m19 8.839l-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z" />
+            </svg></a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </header>
+
+    <section class="hero"><!-- Hero Section-->
+      <div class="content">
+        <h2 class="header-title">Harbor & Hearth .co</h2>
+        <h3>Bringing Warmth & Clarity to Coastal Living</h3>
+        <p>Handcrafted interiors and modern coastal design made with intention.</p>
+        <div class="cta-buttons">
+          <button class="cta-button">Book a Consultation</button>
+          <button class="cta-button">View Our Work</button>
+        </div>
+      </div>
+    </section>
+    <section class="about"><!-- About Section-->
+      <h2>About Harbor & Hearth</h2>
+      <p>At Harbor & Hearth Design Co., we believe a home should be a haven. Our approach blends New
+      England coastal serenity with warm, modern craft — creating spaces that feel peaceful, purposeful, and
+      deeply personal.</p>
+    </section>
+    <section class="portfolio"><!-- Portfolio Section-->
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <div class="img-container">
+            <img src="resources/images/interior1.jpg" alt="Interior 1">
+          </div>
+            <h2 class="project-name">The Windshore Cottage Renovation</h2>
+            <p>A full coastal remodel featuring white oak floors, muted tones, linen textiles, and handcrafted cabinetry.
+          The design focused on maximizing natural light and creating a calm retreat for a family of four.</p>
+        </div>
+        <div class="project">
+          <div class="img-container">
+            <img src="resources/images/interior2.jpg" alt="Interior 2">
+          </div>
+          <h2 class="project-name">Blue Harbor Café Branding</h2>
+          <p>Complete visual identity and interior styling for a seaside espresso bar. Deliverables included logo,
+          color palette, menus, signage, and seating layout that encourages slow, cozy coffee moments.</p>
+        </div>
+        <div class="project">
+          <div class="img-container">
+            <img src="resources/images/interior3.jpg" alt="Interior 3">
+          </div>
+          <h2 class="project-name">Lighthouse Loft Living Room</h2>
+          <p>A modern New England loft with exposed beams, navy accent walls, and warm layered lighting.
+          Custom shelving, built-in seating, and curated art bring the space together.</p>
+        </div>
+        <div class="project">
+          <div class="img-container">
+            <img src="resources/images/interior4.jpg" alt="Interior 4">
+          </div>
+          <h2 class="project-name">Driftwood Workspace Desk</h2>
+          <p>Custom desk made from reclaimed driftwood and matte iron legs for a home office overlooking the
+          harbor. Integrated cable management and discreet storage maintain a clean, focused workspace.</p>
+        </div>
+        </div>
+    </section>
+    <section class="team"><!-- Team Section-->
+      <h2>Meet The Team</h2>
+      <div class="staff">
+        <div class="employee">
+          <div class="img-container"><img src="resources/images/employee-one.jpg" alt="Woman in Suit"></div>
+        <h2 class="employee-name">Avery Collins – <span>Creative Director</span></h2>
+        <h3>Founder and lead designer with 12+ years of experience in coastal interior design. Avery oversees all
+        design projects, blending modern minimalism with handcrafted warmth.</h3>
+        </div>
+        <div class="employee">
+          <div class="img-container"><img src="resources/images/employee-two.jpg" alt="Man in Suit"></div>
+          <h2 class="employee-name">Theo Hart – <span>Master Carpenter</span></h2>
+          <h3>Crafts high-quality custom furniture from reclaimed coastal wood. Theo focuses on durability,
+          sustainability, and timeless forms that anchor each space.</h3>
+        </div>
+        <div class="employee">
+          <div class="img-container"><img src="resources/images/employee-three.jpg" alt="Man in Suit"></div>
+          <h2 class="employee-name">Mara Lin – <span>Brand Designer</span></h2>
+          <h3>Specializes in visual identity, typography, and minimalist logo design. Mara brings cohesive storytelling
+            to every brand touchpoint, from signage to social media.</h3>
+        </div>
+    </div>
+    </section>
+    <section class="services"><!-- Services Section-->
+      <div class="service">
+      <div class="img-container"><img src="resources/images/interior5.jpg" alt="Interior"></div>
+      <div class="offerings">
+        <h2>Our Services</h2>
+        <ul>
+          <li>
+            <p>Interior Design & Styling</p>
+          </li>
+          <li>
+            <p>Custom Furniture Design</p>
+          </li>
+          <li>
+            <p>Brand Identity & Logo Design</p>
+          </li>
+          <li>
+            <p>Space Planning & Layout</p>
+          </li>
+          <li>
+            <p>Consultations & Project Management</p>
+          </li>
+        </ul>
+      </div>
+    </div>  
+    </section>
+    <section class="contact"><!-- Contact Section-->
+      <div class="contact-info">
+        <h3>Want To Work With Us?</h3>
+        <p><span>Email: </span> <a href="mailto:hello@harborandhearth.co">hello@harborandhearth.co</a></p>
+        <p><span>Phone: </span> <a href="tel:5553129842">(555) 312-9842</a></p>
+        <address><span>Address: </span>17 Lighthouse Row, Havenport, MA</address>
+        <p><span>Hours: </span> Mon–Fri, 9am–6pm</p>
+      </div>
+
+    </section>
+    <footer class="footer"> <!-- Footer Section-->
+      <p>© 2024 Harbor & Hearth Design Co. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
