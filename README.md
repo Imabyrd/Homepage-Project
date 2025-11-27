@@ -2,6 +2,9 @@
 
 A responsive homepage for a fictional coastal design company, built as part of Codecademy's Full Stack Development course.
 
+## Live Preview
+Link: https://imabyrd.github.io/Homepage-Project/
+
 ## 🌊 About The Project
 
 Harbor & Hearth Design Co. is a fictional New England-based interior design company specializing in coastal aesthetics. This project demonstrates responsive web design principles using HTML5 and CSS3 with Flexbox layouts.
