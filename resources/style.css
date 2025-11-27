@@ -159,7 +159,11 @@ header .mobile {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/exterior1.jpg');
+<<<<<<< HEAD
+    background-image: url('./images/exterior1.jpg.webp');
+=======
+    background-image: url('./images/exterior1.jpg');
+>>>>>>> 1831652 (Fixed BG Image)
     display: flex;
     text-align: center;
     justify-content: center;
@@ -269,6 +273,11 @@ header .mobile {
     border-radius: 8px;
 }
 
+.project img:hover {
+    filter: brightness(0.9) contrast(1.1);
+    transition: filter 0.3s ease;
+}
+
 .project h3 {
     font-size: 1.25rem;
     margin: 0.5rem 0;
@@ -343,6 +352,10 @@ header .mobile {
     height: auto;
     object-fit: cover;
 }
+.employee .img-container img :hover {
+    filter: brightness(0.9) contrast(1.1);
+    transition: filter 0.3s ease;
+}
 
 /* Services Section */
 .services {
@@ -372,6 +385,10 @@ header .mobile {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+.service .img-container img :hover {
+    filter: brightness(0.9) contrast(1.1);
+    transition: filter 0.3s ease;
 }
 
 .offerings {
@@ -408,7 +425,11 @@ header .mobile {
     align-items: center;
     width: 100%;
     height: 400px;
-    background-image: url('images/exterior2.jpg');
+<<<<<<< HEAD
+    background-image: url('./images/exterior2.jpg.webp');
+=======
+    background-image: url('./images/exterior2.jpg');
+>>>>>>> 1831652 (Fixed BG Image)
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -586,8 +607,6 @@ header .mobile {
     .offerings ul {
         padding-left: 0;
         list-style-position: inside;
-    }
-    .offerings ul li {
     }
 
     .services .service .img-container {
