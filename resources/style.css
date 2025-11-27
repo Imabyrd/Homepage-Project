@@ -159,11 +159,7 @@ header .mobile {
 
 /* Hero Section */
 .hero {
-<<<<<<< HEAD
-    background-image: url('./images/exterior1.jpg.webp');
-=======
     background-image: url('./images/exterior1.jpg');
->>>>>>> 1831652 (Fixed BG Image)
     display: flex;
     text-align: center;
     justify-content: center;
@@ -412,11 +408,7 @@ header .mobile {
     align-items: center;
     width: 100%;
     height: 400px;
-<<<<<<< HEAD
-    background-image: url('./images/exterior2.jpg.webp');
-=======
     background-image: url('./images/exterior2.jpg');
->>>>>>> 1831652 (Fixed BG Image)
     text-align: center;
     background-position: center;
     background-size: cover;
