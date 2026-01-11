@@ -5,7 +5,7 @@ A responsive homepage for a fictional coastal design company, built as part of C
 ## Live Preview
 Link: https://imabyrd.github.io/Homepage-Project/
 
-## 🌊 About The Project
+## About The Project
 
 Harbor & Hearth Design Co. is a fictional New England-based interior design company specializing in coastal aesthetics. This project demonstrates responsive web design principles using HTML5 and CSS3 with Flexbox layouts.
 
@@ -17,7 +17,7 @@ Harbor & Hearth Design Co. is a fictional New England-based interior design comp
 - Google Fonts (Ysabeau family)
 - SVG Icons
 
-## ✨ Features
+## Features
 
 - **Fully Responsive Design** - Adapts seamlessly across desktop, tablet, and mobile viewports
 - **Three Navigation Variants**
@@ -29,7 +29,7 @@ Harbor & Hearth Design Co. is a fictional New England-based interior design comp
 - **Interactive Elements** - Hover and active states on buttons and links
 - **Accessible** - Semantic HTML structure with proper alt text and link labels
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 | Viewport | Width | Navigation Style |
 |----------|-------|------------------|
@@ -37,7 +37,7 @@ Harbor & Hearth Design Co. is a fictional New England-based interior design comp
 | Tablet | 481px - 768px | SVG logo + text links |
 | Mobile | ≤ 480px | SVG logo + icon links |
 
-## 🎨 Color Palette
+## Color Palette
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -47,7 +47,7 @@ Harbor & Hearth Design Co. is a fictional New England-based interior design comp
 | Light | `#ECF0F1` | Backgrounds, light text |
 | Dark | `#34495E` | Body text, dark backgrounds |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 harbor-and-hearth/
@@ -69,7 +69,7 @@ harbor-and-hearth/
         └── employee-three.jpg
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### View Live
 
@@ -84,7 +84,7 @@ Visit the live site: [Harbor & Hearth](https://yourusername.github.io/harbor-and
 
 2. Open `index.html` in your browser
 
-## 📚 What I Learned
+## What I Learned
 
 - Implementing responsive design with CSS media queries
 - Using Flexbox for complex layouts
@@ -94,7 +94,7 @@ Visit the live site: [Harbor & Hearth](https://yourusername.github.io/harbor-and
 - Debugging CSS selector specificity issues
 - Safari-specific flexbox quirks and workarounds
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Add smooth scrolling for anchor links
 - [ ] Implement a hamburger menu toggle for mobile
@@ -102,11 +102,11 @@ Visit the live site: [Harbor & Hearth](https://yourusername.github.io/harbor-and
 - [ ] Include animations and transitions
 - [ ] Add a project detail page template
 
-## 📄 License
+## License
 
 This project was created as part of Codecademy's curriculum. Feel free to use it as inspiration for your own learning projects.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Codecademy](https://www.codecademy.com/) - Project curriculum
 - [Google Fonts](https://fonts.google.com/) - Ysabeau font family
