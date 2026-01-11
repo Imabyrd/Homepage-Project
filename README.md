@@ -114,4 +114,5 @@ This project was created as part of Codecademy's curriculum. Feel free to use it
 
 ---
 
+*Claude only used for CSS understanding*
 *Created by Emma as part of the Codecademy Full Stack Development path*
