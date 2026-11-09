@@ -2,6 +2,8 @@
 
 A responsive homepage for a fictional coastal design company, built as part of Codecademy's Full Stack Development course.
 
+**Project type:** Codecademy learning challenge; fictional business and original visual direction.
+
 ## Live Preview
 Link: https://imabyrd.github.io/Homepage-Project/
 
@@ -54,7 +56,7 @@ harbor-and-hearth/
 ├── index.html
 ├── README.md
 └── resources/
-    ├── styles.css
+    ├── style.css
     └── images/
         ├── logo.png
         ├── exterior1.jpg.webp
@@ -73,13 +75,13 @@ harbor-and-hearth/
 
 ### View Live
 
-Visit the live site: [Harbor & Hearth](https://yourusername.github.io/harbor-and-hearth/)
+Visit the live site: [Harbor & Hearth](https://imabyrd.github.io/Homepage-Project/)
 
 ### Run Locally
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/harbor-and-hearth.git
+   git clone https://github.com/Imabyrd/Homepage-Project.git
    ```
 
 2. Open `index.html` in your browser
@@ -93,6 +95,10 @@ Visit the live site: [Harbor & Hearth](https://yourusername.github.io/harbor-and
 - CSS custom properties (variables) for maintainable styling
 - Debugging CSS selector specificity issues
 - Safari-specific flexbox quirks and workarounds
+
+## What I designed
+
+I chose the coastal brand concept, layout, responsive navigation variants, color palette, and typography as part of this learning project. The page is a static demonstration, not a functioning interior-design booking service. Images and third-party icons are not represented as original illustrations.
 
 ## Future Improvements
 
